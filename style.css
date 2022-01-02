@@ -1,0 +1,158 @@
+body{
+    width: 100%;
+}
+.primarySection{
+    float: left;
+    color: white;
+    width: 50%;
+    height: 625px;
+    background: rgb(6, 164, 255);
+}
+
+.searchClass{
+    font-size: 25px;
+    color: rgb(6, 164, 255);
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.searchClassTwo{
+    font-size: 25px;
+    width: 45px;
+    color: rgb(6, 164, 255);
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.lockIcon{
+    padding-top: 15px;
+}
+
+.secondSection{
+    float: left;
+}
+
+.trashClass, .trashClassTwo, .trashClassThree{
+    width: 50px;
+    color: white;
+    background-color: rgb(6, 164, 255);
+    border-radius: 50%;
+    padding: 15px;   
+}
+
+@media (min-width: 992px) {
+    #primarySec {
+        padding-top: 110px;
+        padding-left: 80px;
+    }
+    #primarySecOne{
+        color: rgba(255, 255, 255, 0.726);
+        font-size: 0.9em;
+        font-weight: 100;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        padding-left: 80px;
+        line-height: 190%;
+    }
+    #primarySecTwo{
+        color: rgba(255, 255, 255, 0.726);
+        font-size: 0.9em;
+        font-weight: 100;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        padding-left: 150px;
+        margin-top: -35px;
+    }
+    .textPrimary{    
+        font-weight: 700;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        line-height: 80%;
+        font-size: 3.5em;
+    }
+    .searchClass,.searchClassTwo{
+        margin-left: 80px;
+    }
+    .imageIcon{
+        color: rgb(6, 164, 255);
+        float: right;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .trashClass{
+        width: 50px;
+        margin-left: 50px;
+        margin-top: 190px;
+    }
+    .trashClassTwo, .trashClassThree{
+        width: 50px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .featureOne, .featureTwo, .featureThree{
+        margin-left: 120px;
+        margin-top: -70px;
+        line-height: 170%;
+    }
+}
+
+@media (max-width: 992px) {
+    .primary{
+        margin-right: 80px;
+        padding-top: 5px;
+    }
+    #primarySec {
+        padding-top: 65px;
+        padding-left: 25px;
+        font-size: 3em;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        line-height: 100%;
+        font-weight: bold;
+    }
+    #primarySecOne{
+        color: rgba(255, 255, 255, 0.726);
+        padding-top: 45px;
+        padding-left: 25px;
+        font-size: 15px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+    #primarySecTwo{
+        color: rgba(255, 255, 255, 0.726);
+        font-size: 16px;
+        font-weight: 100;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        padding-left: 85px;
+        margin-top: -40px;
+    }    
+    .imageIcon{
+        color: rgba(255, 255, 255, 0);
+    }
+    .searchClass, .searchClassTwo{
+        margin-left: 25px;
+    }
+    .featureOne, .featureTwo, .featureThree{
+        margin-top: -75px;
+        padding-left: 65px;
+        margin-block-end: 0px;
+    }
+    .container {
+        padding: 10px;
+        width: 200px;
+        display: block;
+        height: 50px;
+    }
+    .trashClass, .trashClassTwo, .trashClassThree{
+        margin-top: 70px;
+    }
+    .textOneOne, .textTwoOne, .textThreeOne{
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    .textOneTwo, .textTwoTwo, .textThreeTwo{
+        margin-left: 20px;
+        line-height: 180%;
+    }
+    .left{
+        float:left;  
+    }   
+}
